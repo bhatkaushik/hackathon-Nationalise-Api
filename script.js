@@ -50,12 +50,9 @@ head_container.appendChild(inp);
 
 // create a button for searching
 let btn =document.createElement("button");
-btn.setAttribute("class","btn btn-md bg-light font-weight-bold mr-3 text-white");
+btn.setAttribute("class","btn btn-md btn-primary font-weight-bold mr-3 text-white");
 btn.style.float="right";
-
-let search_img=document.createElement("img");
-search_img.setAttribute("src","/hackathon _nationalise-Api/twotone_search_black_24dp.png");
-btn.appendChild(search_img);
+btn.innerHTML="Search";
 
 head_container.appendChild(btn);
 
